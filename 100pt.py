@@ -113,7 +113,7 @@ class MyApp:
                 tx1,ty1,tx2,ty2 = drawpad.coords(target)
                 # Get the co-ordinates of our player AND our target
                 # using x1,y1,x2,y2 = drawpad.coords(object)
-                if (x1 > tx1 and x2 < tx2) and (y1 > ty1 and y2 < ty2):
+                if (x1 > tx1 and x2 < t=====x2) and (y1 > ty1 and y2 < ty2):
                     return False
                 else:
                     return True
